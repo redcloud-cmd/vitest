@@ -7,5 +7,7 @@
     3. 代码洁癖者：重新新建一个vitestConfig文件，然后将该文件放到vite.config.ts文件中。
 ## 3.2 按照上面方法配置，但是全局vitest还是无效
     解决：查看测试代码路径是否在tsconfig.json的include名单里。
+## 3.3 增加组件测试案例
+    组件属性：__name,props,setup,ssrRender,__scopeId,__file
     
  

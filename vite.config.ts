@@ -9,4 +9,8 @@ export default defineConfig({
     // ...vitestConfig
   },
   plugins: [vue()],
+  resolve:{
+    extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".json"]
+  }
+  // extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".json"],
 })
